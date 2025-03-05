@@ -6,7 +6,7 @@ manifest:
   projects:
     - name: zephyr
       remote: remote1
-      revision: master
+      revision: main
       import: 
         - name-allowlist:
             - cmsis
