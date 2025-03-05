@@ -1,0 +1,23 @@
+manifest:
+  remotes:
+    - name: remote1
+      url-base: https://github.com/zephyrproject-rtos
+
+  projects:
+    - name: zephyr
+      remote: remote1
+      revision: v3.6.0
+      import: 
+        - name-allowlist:
+            - cmsis
+            - hal_stm32
+            - hal_nxp
+            - littlefs
+            - tinycrypt
+            - mbedtls
+            - mcuboot
+      clone-depth: 1
+    
+
+  self:
+    path: mini_zephyr
