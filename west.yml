@@ -16,6 +16,7 @@ manifest:
             - tinycrypt
             - mbedtls
             - mcuboot
+            - hal_rpi_pico
     
 
   self:
