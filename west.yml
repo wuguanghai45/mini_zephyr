@@ -6,7 +6,7 @@ manifest:
   projects:
     - name: zephyr
       remote: remote1
-      revision: v3.6.0
+      revision: master
       import: 
         - name-allowlist:
             - cmsis
@@ -16,7 +16,6 @@ manifest:
             - tinycrypt
             - mbedtls
             - mcuboot
-      clone-depth: 1
     
 
   self:
